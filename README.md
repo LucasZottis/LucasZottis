@@ -7,7 +7,6 @@ Esse é meu cantinho onde guardo os códigos, então nem tudo fica público aqui
 ### Um pouco sobre a minha pessoa 🚀
 
 Sou um estudante de engenharia de software, desenvolvedor de software e um apaixonado pelo mundo da tecnologia.
-Hoje em dia eu trabalho com C#, .NET Framework e banco de dados SQL Server, mas meus conhecimentos são mais variados.
 
 <!-- ### Tenho conhecimento em:
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24px" heigth="24px" /> C#
