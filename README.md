@@ -6,7 +6,7 @@
 
 ### Tenho conhecimento em:
 
-### C# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" />
+### C# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width="24px" heigth="24px" />
 
 
 ### Esse é meu cantinho onde guardo os códigos, então nem tudo fica público aqui. Muitos projetos que estão em desenvolvimento estão como privados, mas algum dia ficarão como público.
