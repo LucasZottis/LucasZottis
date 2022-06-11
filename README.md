@@ -1,28 +1,40 @@
-### Olá, tudo bem?
-### Esse é meu cantinho de códigos.
+### Olá, me chamo <a href="https://www.linkedin.com/in/lucas-eduardo-zottis-de-souza-a8a911117/">Lucas Zottis</a>. Tudo bem? 👋
 
-### Sou um estudante de engenharia de software, trabalho como desenvolvedor de software e meu hobby é programar.
-### Hoje em dia eu trabalho com C#, .NET Framework, banco de dados SQL Server, mas meus conhecimentos são mais variados.
+### Bem-vindo ao meu cantinho de códigos.
+Esse é meu cantinho onde guardo os códigos, então nem tudo fica público aqui. Muitos projetos que estão em desenvolvimento estão como privados, mas algum dia ficarão como público.
+<hr>
 
-### Tenho conhecimento em:
+### Um pouco sobre a minha pessoa 🚀
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24px" heigth="24px" />
+Sou um estudante de engenharia de software, desenvolvedor de software e um apaixonado pelo mundo da tecnologia.
+Hoje em dia eu trabalho com C#, .NET Framework e banco de dados SQL Server, mas meus conhecimentos são mais variados.
 
-
-### Esse é meu cantinho onde guardo os códigos, então nem tudo fica público aqui. Muitos projetos que estão em desenvolvimento estão como privados, mas algum dia ficarão como público.
-
-### Meu LinkedIn é: https://www.linkedin.com/in/lucas-eduardo-zottis-de-souza-a8a911117/
-<!--
-**LucasZottis/LucasZottis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!-- ### Tenho conhecimento em:
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24px" heigth="24px" /> C#
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="24px" heigth="24px" /> .NET Framework
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="24px" heigth="24px" /> SQL Server
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="24px" heigth="24px" /> Desenvolvimento de API Rest com .NET 6
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="24px" heigth="24px" /> Linguagem C  
 -->
+
+### Estou estudando atualmente:
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="24px" heigth="24px" /> HTML
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="24px" heigth="24px" /> CSS
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="24px" heigth="24px" /> JavaScript
+
+<hr>
+
+Contato:
+
+<a href="https://www.linkedin.com/in/lucas-eduardo-zottis-de-souza-a8a911117/">
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+</a>
+
+<hr>
+
+Outras informações:
+
+<div>
+  <a href="https://github.com/seu-usuário-aqui">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasZottis&layout=compact&langs_count=7&theme=dracula"/>
+</div>
