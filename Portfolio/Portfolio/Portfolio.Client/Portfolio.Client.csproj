@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.30" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\DevToolz.Components.Blazor\DevToolz.Component\DevToolz.Component.csproj" />
+    <ProjectReference Include="..\..\DevToolz.Library.net\DevToolz.Library\DevToolz.Library.csproj" />
+  </ItemGroup>
+
 </Project>

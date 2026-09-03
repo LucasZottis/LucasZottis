@@ -14,6 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DevToolz.Components.Blazor\DevToolz.Component\DevToolz.Component.csproj" />
+    <ProjectReference Include="..\..\DevToolz.Library.net\DevToolz.Library\DevToolz.Library.csproj" />
     <ProjectReference Include="..\Portfolio.Client\Portfolio.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.30" />
   </ItemGroup>
