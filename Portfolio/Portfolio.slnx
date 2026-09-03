@@ -4,5 +4,7 @@
     <Project Path="Portfolio/Portfolio.Client/Portfolio.Client.csproj" />
     <Project Path="Portfolio/Portfolio/Portfolio.csproj" />
   </Folder>
-  <Folder Name="/Libs/" />
+  <Folder Name="/Libs/">
+    <Project Path="DevToolz.Library.net/DevToolz.Library/DevToolz.Library.csproj" />
+  </Folder>
 </Solution>

@@ -2,3 +2,7 @@
 	path = Portfolio/DevToolz.Library.net
 	url = https://github.com/LucasZottis/DevToolz.Library.net.git
 	branch = dev
+[submodule "Portfolio/DevToolz.Components.Blazor"]
+	path = Portfolio/DevToolz.Components.Blazor
+	url = https://github.com/LucasZottis/DevToolz.Components.Blazor.git
+	branch = main
