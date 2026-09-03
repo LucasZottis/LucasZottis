@@ -1,0 +1,4 @@
+[submodule "Portfolio/DevToolz.Library.net"]
+	path = Portfolio/DevToolz.Library.net
+	url = https://github.com/LucasZottis/DevToolz.Library.net.git
+	branch = dev
