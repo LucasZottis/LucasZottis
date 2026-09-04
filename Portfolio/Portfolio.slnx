@@ -5,7 +5,7 @@
     <Project Path="Portfolio/Portfolio/Portfolio.csproj" />
   </Folder>
   <Folder Name="/Libs/">
-    <Project Path="DevToolz.Components.Blazor/DevToolz.Component/DevToolz.Component.csproj" />
+    <Project Path="DevToolz.Components.Blazor/DevToolz.Component.Blazor/DevToolz.Component.Blazor.csproj" />
     <Project Path="DevToolz.Library.net/DevToolz.Library/DevToolz.Library.csproj" />
   </Folder>
 </Solution>
