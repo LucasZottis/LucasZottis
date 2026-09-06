@@ -1,0 +1,42 @@
+﻿@using DevToolz.Component.Blazor.Layout
+@using Portfolio.Shared.Components
+@page "/"
+
+<section id="about">
+    <h1>Olá, sou <span class="highlight-text">Lucas Zottis</span>.</h1>
+    <h3>Tudo bem?</h3>
+    <p>Sou desenvolvedor de software focado em back-end utilizando .NET, mas me arrisco no front-end também utilizando .NET e Angular.</p>
+    <p>
+        Com o objetivo de entregar soluções bem estruturadas, fáceis de manter e alinhadas com as reais necessidades de quem vai usar.
+        Mais do que escrever código, procuro criar sistemas que resolvem problemas de forma eficiente e clara — do começo ao fim.
+    </p>
+
+    <span>Abaixo é possível ver os projetos já desenvolvidos por mim.</span>
+</section>
+
+<section id="my-projects">
+    <h1>Meus <span class="highlight-text">Projetos</span></h1>
+    <section style="margin-top: 12px; width: 100%">
+        <Row>
+            <Column Size="12">
+                <ProjectCard />
+            </Column>
+            <Column Size="12" SizeSM="6">
+                <ProjectCard />
+            </Column>
+            <Column Size="12" SizeSM="6">
+                <ProjectCard />
+            </Column>
+            <Column Size="12" SizeSM="6">
+                <ProjectCard />
+            </Column>
+            <Column Size="12" SizeSM="6">
+                <ProjectCard />
+            </Column>
+        </Row>
+    </section>
+</section>
+
+@code {
+
+}

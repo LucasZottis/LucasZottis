@@ -1,0 +1,18 @@
+﻿section {
+    margin: var(--dtz-size-240) var(--dtz-size-40);
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    gap: var(--dtz-size-160);
+    text-align: left;
+}
+
+#my-projects {
+    align-items: center;
+}
+
+.highlight-text {
+    color: var(--dtz-primary);
+}

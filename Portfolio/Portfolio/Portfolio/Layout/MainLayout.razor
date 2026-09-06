@@ -1,43 +1,33 @@
 ﻿@using DevToolz.Component.Blazor.Layout
 @inherits LayoutComponentBase
 
-@* <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-                <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-
-
-    </main>
-</div>
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div> *@
-
-<DevToolzLayout>
-    <Header>
-        <a href="#sobre">
-            Sobre
-        </a>
-        <a href="#sobre">
-            Projetos
-        </a>
-        <a href="#sobre">
-            Contato
-        </a>
-    </Header>
-    <Body>
-        @Body
-    </Body>
-</DevToolzLayout>
+<main>
+    <DevToolzLayout>
+        <Header>
+            <div class="header-content">
+                <ul class="navbar">
+                    <li class="navbar-item">
+                        <a href="#">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">
+                            Projetos
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </Header>
+        <Body>
+            <div class="content">
+                @Body
+            </div>
+        </Body>
+    </DevToolzLayout>
+</main>
