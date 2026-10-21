@@ -19,7 +19,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Definir nome da imagem em minúsculas
-        run: echo "IMAGE=ghcr.io/$(echo 'portfolio' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+        run: echo "IMAGE=ghcr.io/$(echo 'lucaszottis/portfolio' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Definir tag da imagem
         run: echo "TAG=$(echo '${{ github.event.release.tag_name || github.ref_name }}' | tr '/' '-')" >> $GITHUB_ENV
