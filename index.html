@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Em construção</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <main class="window" role="status" aria-live="polite">
+      <div class="titlebar">
+        <span class="dot r"></span>
+        <span class="dot a"></span>
+        <span class="dot g"></span>
+        <span class="label">deploy.log</span>
+      </div>
+
+      <div class="body">
+        <div class="line">
+          <span class="prompt">$</span> <span class="cmd" id="typed"></span
+          ><span class="cursor"></span>
+        </div>
+
+        <h1>Este serviço ainda está sendo implantado</h1>
+        <p class="desc">
+          O domínio já está apontado e o proxy está de pé — falta o container da
+          aplicação subir. Volte em instantes.
+        </p>
+
+        <div class="bar-row">
+          <div class="bar-track"><div class="bar-fill" id="fill"></div></div>
+          <span class="pct" id="pct">0%</span>
+        </div>
+
+        <div class="footer">
+          status: <span id="status">aguardando build</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
