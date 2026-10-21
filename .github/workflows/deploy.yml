@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Login no GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Definir nome da imagem em minúsculas
+        run: echo "IMAGE=ghcr.io/$(echo 'portfolio' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
+      - name: Definir tag da imagem
+        run: echo "TAG=$(echo '${{ github.event.release.tag_name || github.ref_name }}' | tr '/' '-')" >> $GITHUB_ENV
+
+      - name: Build da imagem Docker
+        run: |
+          docker build \
+            -t ${{ env.IMAGE }}:${{ env.TAG }} \
+            -t ${{ env.IMAGE }}:latest .
+
+      - name: Push da imagem para o GHCR
+        run: docker push ${{ env.IMAGE }} --all-tags
+
+      # A atualização da VPS em produção ainda não tem mecanismo definido
+      # (ver "Decisões — Deploy de Aplicações na VPS", seção 2 — item em aberto).
+      # Nenhum passo de deploy para a VPS foi adicionado aqui de propósito.
